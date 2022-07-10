@@ -31,12 +31,5 @@ public class SoftAssertionsTest {
         $$("#wiki-pages-box .flex-1").filterBy(text("SoftAssertions")).first()
                 .shouldBe(visible).click();
         $(".markdown-body").shouldHave(text("JUnit5"));
-
-
-       // $(".wiki-pages-box").find(byText("Soft assertions"));
-
-
-                //("Soft assertions")).click();
-
     }
 }
